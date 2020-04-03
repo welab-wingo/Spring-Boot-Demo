@@ -5,6 +5,18 @@
 * [Shiro 配置类](#shiro-配置类)
 * [控制器类](#控制器类)
 
+SQL 建表语句：
+
+```sql
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varbinary(64) DEFAULT NULL,
+  `password` varchar(64) DEFAULT NULL,
+  `perms` varchar(64) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8
+```
+
 ### 导入依赖
 
 ```xml
