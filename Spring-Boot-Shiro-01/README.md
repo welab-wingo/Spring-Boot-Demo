@@ -1,8 +1,8 @@
 > Spring Boot + Shiro + JPA + Thymeleaf
 
 * [导入依赖](#导入依赖)
-* [自定义 Realm 类](#自定义 Realm 类)
-* [Shiro 配置类](#Shiro 配置类)
+* [自定义 Realm 类](#自定义-realm-类)
+* [Shiro 配置类](#shiro-配置类)
 * [控制器类](#控制器类)
 
 ### 导入依赖
