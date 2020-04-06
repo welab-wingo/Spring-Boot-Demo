@@ -71,7 +71,7 @@ INSERT INTO user (name, age, email) VALUES
     <dependency>
         <groupId>com.alibaba</groupId>
         <artifactId>fastjson</artifactId>
-        <version>1.2.31</version>
+        <version>1.2.6</version>
     </dependency>
     <!-- 热部署 -->
     <dependency>
